@@ -6,6 +6,7 @@ def add_student():
     group = input("Введите класс: ")
     Data_work.add_student([surname, name, group])
 
+
 def add_score():
     last_name = input("Введите фамилию ученика: ")
     subject = input("Введите предмет: ")
